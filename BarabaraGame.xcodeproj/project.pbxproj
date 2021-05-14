@@ -15,6 +15,13 @@
 		5A064BF9264E8A0800B172BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A064BF7264E8A0800B172BC /* LaunchScreen.storyboard */; };
 		5A064C04264E8A0900B172BC /* BarabaraGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A064C03264E8A0900B172BC /* BarabaraGameTests.swift */; };
 		5A064C0F264E8A0900B172BC /* BarabaraGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A064C0E264E8A0900B172BC /* BarabaraGameUITests.swift */; };
+		5A064C1F264E8B6200B172BC /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A064C1D264E8B6200B172BC /* tail.png */; };
+		5A064C20264E8B6200B172BC /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A064C1E264E8B6200B172BC /* bar.png */; };
+		5A064C22264E8D2200B172BC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A064C21264E8D2200B172BC /* GameViewController.swift */; };
+		5A064C24264E8D2E00B172BC /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A064C23264E8D2E00B172BC /* RankingViewController.swift */; };
+		5A064C2E264E983F00B172BC /* スクリーンショット 2021-05-14 20.35.04.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A064C2B264E983F00B172BC /* スクリーンショット 2021-05-14 20.35.04.png */; };
+		5A064C2F264E983F00B172BC /* スクリーンショット 2021-05-14 20.35.26.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A064C2C264E983F00B172BC /* スクリーンショット 2021-05-14 20.35.26.png */; };
+		5A064C30264E983F00B172BC /* スクリーンショット 2021-05-14 20.35.17.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A064C2D264E983F00B172BC /* スクリーンショット 2021-05-14 20.35.17.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		5A064C0A264E8A0900B172BC /* BarabaraGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarabaraGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A064C0E264E8A0900B172BC /* BarabaraGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarabaraGameUITests.swift; sourceTree = "<group>"; };
 		5A064C10264E8A0900B172BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A064C1D264E8B6200B172BC /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		5A064C1E264E8B6200B172BC /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		5A064C21264E8D2200B172BC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5A064C23264E8D2E00B172BC /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+		5A064C2B264E983F00B172BC /* スクリーンショット 2021-05-14 20.35.04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2021-05-14 20.35.04.png"; sourceTree = "<group>"; };
+		5A064C2C264E983F00B172BC /* スクリーンショット 2021-05-14 20.35.26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2021-05-14 20.35.26.png"; sourceTree = "<group>"; };
+		5A064C2D264E983F00B172BC /* スクリーンショット 2021-05-14 20.35.17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2021-05-14 20.35.17.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +120,9 @@
 				5A064BF5264E8A0800B172BC /* Assets.xcassets */,
 				5A064BF7264E8A0800B172BC /* LaunchScreen.storyboard */,
 				5A064BFA264E8A0800B172BC /* Info.plist */,
+				5A064C1C264E8B6200B172BC /* Barabara素材 */,
+				5A064C21264E8D2200B172BC /* GameViewController.swift */,
+				5A064C23264E8D2E00B172BC /* RankingViewController.swift */,
 			);
 			path = BarabaraGame;
 			sourceTree = "<group>";
@@ -126,6 +143,18 @@
 				5A064C10264E8A0900B172BC /* Info.plist */,
 			);
 			path = BarabaraGameUITests;
+			sourceTree = "<group>";
+		};
+		5A064C1C264E8B6200B172BC /* Barabara素材 */ = {
+			isa = PBXGroup;
+			children = (
+				5A064C2B264E983F00B172BC /* スクリーンショット 2021-05-14 20.35.04.png */,
+				5A064C2D264E983F00B172BC /* スクリーンショット 2021-05-14 20.35.17.png */,
+				5A064C2C264E983F00B172BC /* スクリーンショット 2021-05-14 20.35.26.png */,
+				5A064C1D264E8B6200B172BC /* tail.png */,
+				5A064C1E264E8B6200B172BC /* bar.png */,
+			);
+			path = "Barabara素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +261,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A064BF9264E8A0800B172BC /* LaunchScreen.storyboard in Resources */,
+				5A064C2E264E983F00B172BC /* スクリーンショット 2021-05-14 20.35.04.png in Resources */,
+				5A064C20264E8B6200B172BC /* bar.png in Resources */,
+				5A064C2F264E983F00B172BC /* スクリーンショット 2021-05-14 20.35.26.png in Resources */,
+				5A064C1F264E8B6200B172BC /* tail.png in Resources */,
 				5A064BF6264E8A0800B172BC /* Assets.xcassets in Resources */,
 				5A064BF4264E8A0500B172BC /* Main.storyboard in Resources */,
+				5A064C30264E983F00B172BC /* スクリーンショット 2021-05-14 20.35.17.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +292,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A064C24264E8D2E00B172BC /* RankingViewController.swift in Sources */,
+				5A064C22264E8D2200B172BC /* GameViewController.swift in Sources */,
 				5A064BF1264E8A0500B172BC /* ViewController.swift in Sources */,
 				5A064BED264E8A0500B172BC /* AppDelegate.swift in Sources */,
 				5A064BEF264E8A0500B172BC /* SceneDelegate.swift in Sources */,
